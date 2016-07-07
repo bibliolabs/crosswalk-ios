@@ -56,7 +56,7 @@
 
 - (void)prepareForExtension
 {
-    NSBundle* bundle = [NSBundle bundleForClass:self.class];
+    NSBundle* bundle = [NSBundle bundleForClass:XWalkView.class];
     NSAssert(bundle, @"Failed to load bundle for class:", self.description);
     if (!bundle) {
         return;
